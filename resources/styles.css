@@ -1,0 +1,172 @@
+.heading {
+	color:black;
+}
+
+body {
+	background-color: black;
+	font-family: "Lobster", "Georgia";
+	margin:0;
+
+}
+
+p {font-family: "Georgia";
+	color: white;
+}
+
+nav {
+
+	font-size: 20px;
+	text-align: center;
+	background-color: #ff9900;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 70px;
+}
+
+nav ul {list-style: none;
+}
+
+nav ul li {
+	display: inline; padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	transition: color ease 1s;
+
+}
+
+nav a:hover {
+	color: brown;
+	transition: color ease 1s;
+}
+
+
+.section {
+	padding: 20px;
+	min-height: 300px;
+	width: 100%;
+}
+
+
+
+#Welcome {
+	margin-top: 70px;
+	border-radius: 8px;
+	background-image: url("Dali.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.semi-transparent {
+	opacity: 0.5;
+	margin-left: -20px;
+	margin-top: 20px;
+	width: 100vw;
+	height: 100%;
+	background-color: #ffccff;
+}
+
+#About {
+	border-radius: 8px;
+	background-color: #336699;
+}
+
+#Skills {
+	background-color: #660033;
+}
+
+#Photos {
+	border-radius: 8px;
+	background-color: grey;
+	background-repeat: no-repeat;
+}
+
+#Photos img {
+width: 30%;
+}
+
+#Extra {
+	background-color: #999999;
+}
+
+#Extra img {
+	width: 400px;
+}
+
+#contact {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 20px;
+
+	padding-bottom: 500px;
+	background-blend-mode: darken;
+}
+
+#myface {width: 200px;
+}
+
+#Dali {width: 60%;
+}
+
+#tremont {width: 500px;
+	cursor: pointer;
+    transition: 0.3s;
+}
+
+
+#tremont:hover {opacity: 0.7;}
+
+.tremont {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+}
+
+
+img {
+
+	margin: 20px;
+	border-radius: 8px;
+}
+
+img:hover {
+	width: 200px;
+	transition:width 0.2s linear;
+}
