@@ -1,16 +1,195 @@
 .heading {
-	color:red;
+	color:white;
 }
 
 body {
-	background-color: green;
+	background-color: black;
+	background-image: url("resources/bg/beacon.jpg");
+	font-family: "Lobster", "Helvetica";
+	margin:0;
 
+}
+
+p {font-family: "Helvetica";
+	color: white;
+}
+
+nav {
+
+	font-size: 18px;
+	text-align: center;
+	background-color: #333;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 50px;
 }
 
 nav ul {list-style: none;
 }
 
-nav ul li{
-	display: inline;
+nav ul li {
+	display: inline; padding-left: 10px;
+	padding-right: 10px;
 
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	transition: color ease 0.5s;
+
+}
+
+nav a:hover {
+	color: brown;
+	transition: color ease 1s;
+}
+
+
+.section {
+	padding: 20px;
+	min-height: 300px;
+	width: 100%;
+}
+
+
+
+#index.html .myDiv {
+	margin-top: 100px;
+	border-radius: 8px;
+	background-image: url("resources/train.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+#about.html .myDiv {
+	margin-top: 100px;
+	border-radius: 8px;
+	background-image: url("resources/bg/train.jpg");
+	background-repeat: no-repeat;
+}
+
+#skills.html .myDiv {
+
+
+}
+
+#photos.html .myDiv {
+	margin-top: 100px;
+	border-radius: 8px;
+	
+}
+
+#photos.html .myDiv img {
+width: 30%;
+}
+
+
+#contact.html .myDiv {
+  	margin-top: 100px;
+	border-radius: 8px;
+	
+}
+
+#myface {width: 200px;
+}
+
+#myface:hover {opacity: 0.7;}
+
+.myface {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+}
+
+.Photos {
+	display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+
+}
+
+
+#tremont {width: 500px;
+	cursor: pointer;
+    transition: 0.3s;
+}
+
+
+#tremont:hover {opacity: 0.7;}
+
+.tremont {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+}
+
+#common: hover {opacity: 0.7;}
+
+.common {
+   display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+   }
+
+  .train { 
+  	 display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+}
+
+
+
+img {
+
+	margin: 20px;
+	border-radius: 8px;
+}
+
+img:hover {
+	width: 200px;
+	transition:width 0.2s linear;
 }

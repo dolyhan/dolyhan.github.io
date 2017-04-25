@@ -1,15 +1,15 @@
 .heading {
-	color:black;
+	color:white;
 }
 
 body {
 	background-color: black;
-	font-family: "Lobster", "Georgia";
+	font-family: "Lobster", "Helvetica";
 	margin:0;
 
 }
 
-p {font-family: "Georgia";
+p {font-family: "Helvetica";
 	color: white;
 }
 
@@ -18,11 +18,12 @@ nav {
 	font-size: 20px;
 	text-align: center;
 	background-color: #ff9900;
+	background-image: url("resources/mit.jpg")
 	position: fixed;
 	top:0;
 	left:0;
 	width: 100%;
-	height: 70px;
+	height: 100px;
 }
 
 nav ul {list-style: none;
@@ -56,7 +57,7 @@ nav a:hover {
 
 
 #Welcome {
-	margin-top: 70px;
+	margin-top: 100px;
 	border-radius: 8px;
 	background-image: url("Dali.jpg");
 	background-repeat: no-repeat;
@@ -134,6 +135,22 @@ input[type=submit]:hover {
 #myface {width: 200px;
 }
 
+#myface:hover {opacity: 0.7;}
+
+.myface {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+}
+
 #Dali {width: 60%;
 }
 
@@ -158,6 +175,23 @@ input[type=submit]:hover {
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.9);
 }
+
+#common: hover {opacity: 0.7;}
+
+.common {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+}
+
 
 
 img {
